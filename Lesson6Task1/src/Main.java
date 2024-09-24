@@ -8,7 +8,7 @@ public class Main {
         circle.drawCircle();
         square.drawSquare();
         rectangle.drawRectangle();
-        circle.drawCircle();
+        ellipse.drawCircle();
         ellipse.circleToEllipse();
     }
 }
@@ -36,7 +36,7 @@ class Square extends  Figure{
 class Rectangle extends Figure{
 }
 
-class Ellipse {
+class Ellipse extends Circle{
     public void circleToEllipse() {
         System.out.println("Превращаем круг в овал");
     }

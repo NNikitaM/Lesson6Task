@@ -4,5 +4,6 @@ class ModelQ extends Texla {
         // переопределите необходимые поля
         maxSpeed = 300;
         acceleration = 100;
+        speed = 0;
     }
 }
